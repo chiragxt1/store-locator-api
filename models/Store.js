@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const geocoder = require('../utils/geocoder');
 
 const StoreSchema = new mongoose.Schema({
-    storeID: {
+    storeId: {
         type: String,
         required: [true, 'Please add a store ID'],
         unique: true,
